@@ -82,28 +82,19 @@
                     placeholder="Describe the task!"
                     required
                   />
-                  <!-- <div class="input-group">
-                      <div class="input-group-prepend">
-                        <span class="input-group-text" id="inputGroupPrepend2">@</span>
-                      </div>
-                      <input type="text" class="form-control" id="validationDefaultUsername"  aria-describedby="inputGroupPrepend2" required>
-                    </div> -->
                 </div>
               </div>
               <div class="form-row">
                 <div class="col-md-6 mb-3">
                   <label for="validationDefault04">Assigned to</label>
-                  <select
-                    class="custom-select"
-                    id="validationDefault04"
-                    required
-                  >
+                  <input class="form-control" list="validationDefault04" />
+                  <datalist id="validationDefault04" required>
                     <option selected disabled value="">Select...</option>
                     <option>John Doe</option>
                     <option>John Smith</option>
                     <option>David L</option>
                     <option>Victoria P</option>
-                  </select>
+                  </datalist>
                 </div>
                 <div class="col-md-3 mb-3">
                   <label for="validationDefault04">Status</label>
